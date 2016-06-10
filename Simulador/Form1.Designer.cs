@@ -39,7 +39,6 @@
             this.btnVolver = new System.Windows.Forms.Button();
             this.BTNJugar = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.golesPanel = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.golesPanel2 = new System.Windows.Forms.Panel();
             this.dgvLocal = new System.Windows.Forms.DataGridView();
@@ -156,13 +155,6 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // golesPanel
-            // 
-            this.golesPanel.Location = new System.Drawing.Point(586, 128);
-            this.golesPanel.Name = "golesPanel";
-            this.golesPanel.Size = new System.Drawing.Size(146, 100);
-            this.golesPanel.TabIndex = 12;
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -232,7 +224,6 @@
             this.Controls.Add(this.dgvLocal);
             this.Controls.Add(this.golesPanel2);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.golesPanel);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.BTNJugar);
             this.Controls.Add(this.btnVolver);
@@ -265,7 +256,6 @@
         private System.Windows.Forms.Button btnVolver;
         private System.Windows.Forms.Button BTNJugar;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Panel golesPanel;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel golesPanel2;
         private System.Windows.Forms.DataGridView dgvLocal;
